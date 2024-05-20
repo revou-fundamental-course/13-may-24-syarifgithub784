@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Welcome To my Mini Project</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, impedit.</p>
+        </section>
+    </header>
+    <section>
+        <h3>Segitiga</h3>
+    </section>
+    <section class="main">
+        <div>
+            <a href="#luas">Luas</a>
+            <a href="#keliling">Keliling</a>
+        </div>
+    </section>
+    <br>
+    <section class="border">
+        <div id="luas">
+            <h2>Luas Segitiga</h2>
+        </div>
+        <div class="image">
+            <img class="photo" src="assets/LuasSegitiga.jpg" alt="RumusLuasSegitiga">
+        </div>
+        <div>
+            <p>Rumus luas segitiga yaitu:</p>
+        </div>
+        <div>
+            <h4 class="center">L = 1/2 x a x t</h4>
+        </div>
+        <div>
+            <p>Dimana:<br>
+                L = Luas<br>
+                a = Panjang alas<br>
+                t = tinggi<br>
+            </p>
+        </div>
+        <hr>
+        <h2 class="center font">Hitung Luas Segitiga</h2>
+        <form id="luassegitiga">
+            <label for="alas">Alas:</label>
+            <input type="text" id="alas" name="alas" placeholder="Masukkan Alas" required><br>
+            <label for="tinggi">Tinggi:</label>
+            <input type="text" id="tinggi" name="tinggi" placeholder="Masukkan Tinggi" required><br>
+            <input type="submit" value="Hitung">
+            <input type="reset" value="Reset">
+        </form>
+        <div id="hasil"></div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
