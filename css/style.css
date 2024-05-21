@@ -109,13 +109,68 @@ section>div>h2{
     background-color: #e60000; 
 }
 
-#hasil {
+#hasilluas {
     margin-top: 20px;
     padding: 10px;
     border-radius: 4px;
     text-align: center; 
 }
 
-#hasil p {
+#hasilluas p {
+    margin-bottom: 10px;
+}
+#kelilingsegitiga {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+#kelilingsegitiga label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+#kelilingsegitiga input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#kelilingsegitiga input[type="submit"] {
+    padding: 10px 100px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#kelilingsegitiga input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#kelilingsegitiga input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #FF0000; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#kelilingsegitiga input[type="reset"]:hover {
+    background-color: #e60000; 
+}
+#hasilkeliling {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center; 
+}
+
+#hasilkeliling p {
     margin-bottom: 10px;
 }
